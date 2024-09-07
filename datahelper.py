@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 
-# .env dosyasını yükleyin
+
 load_dotenv()
 my_key_openai = os.getenv("OPENAI_API_KEY")
 
@@ -33,7 +33,7 @@ def summarize_csv(data_file):
     # Initial data sample (first few rows)
     data_summary["initial_data_sample"] = df.head()
 
-    # Create a table of column descriptions in English
+    
     data_summary["column_descriptions"] = pandas_agent.run("Create a table that includes the column names and a brief description of the information they contain. Provide the response in table format.")
 
     # Check for missing values in the dataset
