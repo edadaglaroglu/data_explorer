@@ -1,6 +1,6 @@
 Data Explorer: Natural Language Data Exploration with Pandas and OpenAI 🤖
 
-This project is a Streamlit application designed for exploring CSV files through natural language interaction, powered by OpenAI's GPT-4 model. A key feature of this project is the use of LangChain's Pandas DataFrame Agent, which processes data dynamically using natural language commands instead of traditional Pandas operations.
+This project is a Streamlit application designed for exploring CSV files through natural language interaction, powered by OpenAI's GPT-4o model. A key feature of this project is the use of LangChain's Pandas DataFrame Agent, which processes data dynamically using natural language commands instead of traditional Pandas operations.
 
 #Features
 
@@ -76,6 +76,6 @@ dotenv: For loading environment variables.
 
 #Conclusion
 
-This project demonstrates how to integrate natural language processing with data exploration using OpenAI's GPT-4 and LangChain's Pandas DataFrame Agent. By utilizing the agent, users can interact with datasets in a conversational manner, making it easier to derive insights without writing complex code.
+This project demonstrates how to integrate natural language processing with data exploration using OpenAI's GPT-4o and LangChain's Pandas DataFrame Agent. By utilizing the agent, users can interact with datasets in a conversational manner, making it easier to derive insights without writing complex code.
 
 Feel free to explore the dataset and interact with it using natural language! 🚀
