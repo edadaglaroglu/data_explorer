@@ -25,7 +25,7 @@ def summarize_csv(data_file):
         df,
         verbose=True,
         agent_executor_kwargs={"handle_parsing_errors": "True"},
-        allow_dangerous_code=True  # allow_dangerous_code ekledim
+        allow_dangerous_code=True  
     )
 
     data_summary = {}
