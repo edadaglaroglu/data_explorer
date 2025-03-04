@@ -12,7 +12,7 @@ load_dotenv()
 my_key_openai = os.getenv("OPENAI_API_KEY")
 
 # Initialize OpenAI LLM
-llm_gpt = ChatOpenAI(api_key=my_key_openai, model="gpt-4", temperature=0)  # Model ismini doğru şekilde güncelledim
+llm_gpt = ChatOpenAI(api_key=my_key_openai, model="gpt-4", temperature=0)  
 selected_llm = llm_gpt
 
 # Function to summarize the data from a CSV file
@@ -64,7 +64,7 @@ def analyze_trend(data_file, variable_of_interest):
         df,
         verbose=True,
         agent_executor_kwargs={"handle_parsing_errors": "True"},
-        allow_dangerous_code=True  # allow_dangerous_code ekledim
+        allow_dangerous_code=True  
     )
 
     # Analyze the trend for the selected variable
@@ -83,7 +83,7 @@ def ask_question(data_file, question):
         df,
         verbose=True,
         agent_executor_kwargs={"handle_parsing_errors": "True"},
-        allow_dangerous_code=True  # allow_dangerous_code ekledim
+        allow_dangerous_code=True 
     )
 
     # Ask a specific question and get an answer from the AI
